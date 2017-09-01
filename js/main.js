@@ -105,9 +105,13 @@ function switchPlayer() {
 var currentPlayer = game.player[0]
 
 $('.box').on('click', function () {
+    if ($(this).text() === '') {
     $(this).text(currentPlayer.symbol)
     $(this).css('color', currentPlayer.color)
     checkWinner()
     switchPlayer()
-    $('#turnIndicator').text("It's " + currentPlayer.symbol + "'s turn!")
+    $('#turnIndicator').text("It's " + currentPlayer.symbol + "'s turn!") 
+    } else {
+        alert('spot taken')
+    }
 })

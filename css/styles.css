@@ -1,0 +1,32 @@
+#grid {
+    width: 313px;
+    height: 313px;
+    background: dodgerblue;
+    font-size: 0px;
+    padding: 10px;
+    margin: 0 auto;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    background: silver;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Finger Paint', cursive;
+    color: black;
+    font-size: 80px;
+    vertical-align: text-top;
+    border: 2px solid black;
+}
+.box:hover {
+    background: #D8D8D8;
+}
+h1 {
+    text-align: center;
+    font-family: 'Finger Paint', cursive;
+}
+h3 {
+    text-align: center;
+    font-family: 'Finger Paint', cursive;
+}
+}
